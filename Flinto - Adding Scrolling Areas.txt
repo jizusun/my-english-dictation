@@ -1,0 +1,241 @@
+ 
+Flinto allows you to add scrolling areas to your screen really easily
+Flinto可以让您轻松地在屏幕上添加滚动区域
+ 
+you just have to select some layers or some groups
+你只需要选择一些图层或一些组
+ 
+and then make them a scrollable
+然后让它们成为可滚动的
+ 
+and then you can also control the scroll direction,
+然后你也可以控制滚动方向
+ 
+the scrollbar color,
+滚动条的颜色
+ 
+and also,
+并且
+ 
+if the scrolling is paged,
+比如滚动被分页
+ 
+and other cool stuff if it's bouncing stuff like that
+和其他很酷的东西，就像那种可以弹起的东西
+ 
+so for example here
+例如这里
+ 
+I want to make this the home screen of this prototype
+我想让它成为这个原型的主屏幕
+ 
+I want these three images to be scroll horizontally
+我希望这三个图像水平滚动
+ 
+as you can see here, there are three images
+正如你在这里看到的那样，有三个图像
+ 
+I want to be able to scroll horizontally
+我想能够水平滚动
+ 
+but not only that
+但不仅如此
+ 
+but I also want them to be a snap to the size of the page
+但我也希望它们能够适应页面的大小
+ 
+so I can just select this group
+所以我可以选择这个组
+ 
+and then here in the group options
+然后在这里的组选项
+ 
+I have the ability to make it a scrollable here
+我有能力让它在这里滚动
+ 
+so I'm going to make it a scroll horizontally
+所以我会将它水平滚动
+ 
+and then I'm going to enable paging
+然后我打算启用分页
+ 
+and let's preview
+并预览
+ 
+it see works like magic
+它看起来像魔术般的作品
+ 
+as you can see only that group with the images
+因为你只能看到图像组
+ 
+is what scrolling
+是什么滚动
+ 
+the rest of the elements are by default
+其余的元素都是默认的
+ 
+just static so that's cool now
+只是静态，所以现在很酷
+ 
+I'm going to create a quick link to this screen
+我要创建一个到这个屏幕的快速链接
+ 
+I'm going to do fade in
+我要淡入
+ 
+and then here
+I want to make this group vertically scrollable
+然后在这里
+我想让这个组垂直滚动
+ 
+but I also want to have a different group inside this group
+但我也想在这个组里面有一个不同的组
+ 
+a nested group that Scrolls horizontally
+水平滚动的嵌套组
+ 
+so let's start by making this scrollable vertically
+所以让我们开始垂直滚动这个滚动条
+ 
+so this group I'm going to go here in the options scroll
+所以这个小组我将在选项滚动中去这里
+ 
+I'm going to make it vertical scrolling
+我要让它垂直滚动
+ 
+and I'm going to preview it
+我将预览它
+ 
+here
+这里
+ 
+let's go
+我们走吧
+ 
+and I can scroll vertically
+我可以垂直滚动
+ 
+that's pretty cool
+这很酷
+ 
+that's exactly what I wanted
+这正是我想要的
+ 
+but now I want to make this scrollable horizontally
+但现在我想使这个水平滚动
+ 
+and I can do this
+我可以做到这一点
+ 
+by selecting double clicking here
+通过选择双击这里
+ 
+and now I'm going to this a nested group
+现在我要去这个嵌套组
+ 
+I'm going to make it horizontally scroll
+我将使其水平滚动
+ 
+so
+I'm going to first of all this layer
+所以
+首先我要介绍这一层
+ 
+I'm going to make it a group
+我要把它组合起来
+ 
+because single layers you cannot make a scroll unless they are a group
+因为单个图层除非是一个组，否则不能进行滚动
+ 
+so I press command G
+所以我按⌘+G
+ 
+now that is a new group
+现在这是一个新的组
+ 
+I want to change the name to course to scroll
+我想将名称更改为当然滚动
+ 
+you don't have to do this
+你不必这样做
+ 
+I like to do that
+我喜欢这样做
+ 
+and then
+接着
+ 
+here on the group options to select horizontal scroll
+这里在组选项中选择水平滚动
+ 
+and that's it I'm going to keep it bouncy
+这就是我要保持它的弹性
+ 
+and let's preview it
+并预览它
+ 
+and as you can see now it's a scrollable
+正如你现在看到的那样它是一个可滚动的
+ 
+but it also cuts
+但它也削减
+ 
+here it crops here
+这里它在这里收获
+ 
+and it doesn't go all the way to the left
+它不会一路走到左边
+ 
+and that's because we haven't edited the crop of it
+那是因为我们没有编辑它的作物
+ 
+so here I just going to zoom in
+所以在这里我只是放大
+ 
+and I'm going to say it is going to crop here
+我要说它将在这里裁剪
+ 
+the edge of the artboard
+画板的边缘
+ 
+and also here
+也在这里
+ 
+this is going to be the size of the scroal area
+这将是滚动区域的大小
+ 
+so I'm going to make it here
+所以我要在这里
+ 
+and that way
+那样
+ 
+it will bring the whole element to the left
+它会把整个元素带到左边
+ 
+let's preview it
+让我们预览它
+ 
+and now I'm able to scroll all the way to the left
+现在我可以一直向左滚动
+ 
+and all the way to the right
+并一直向右
+ 
+and that's it you can make any group or any element on your designs scrollable with flint
+这就是它可以让你的设计上的任何组或任何元素可以用燧石滚动
+ 
+Oh which is pretty pretty cool
+哦，这很酷
+ 
+you can make it paging like this
+你可以使它像这样分页
+ 
+you can make it very clean like this
+你可以像这样做得很干净
+ 
+and also you can add nested groups that are independently scrollable –
+也可以添加可独立滚动的嵌套组
+ 
+pretty cool stuff
+很酷的东西
