@@ -31,11 +31,8 @@ as you can see here, there are three images
 I want to be able to scroll horizontally
 我想让它们能水平滚动
  
-but not only that
-但不仅如此
- 
-but I also want them to be a snap to the size of the page
-我还希望它们能够适应页面的大小
+but not only that, but I also want them to be a snap to the size of the page
+但不仅如此，我还希望它们能够适应页面的大小
  
 so I can just select this group
 所以我可以选择这个组
@@ -44,7 +41,7 @@ and then here in the group options
 然后在这里 —— “组选项” (Group Options)
  
 I have the ability to make it a scrollable here
-我可以将其设置为可滚动的
+我可以在这里将其设置为可滚动的
  
 so I'm going to make it a scroll horizontally
 所以，这里我将它设置为水平可滚动的(Scroll - Horizontal)
@@ -97,17 +94,14 @@ and I'm going to preview it
 here, let's go
 点这里，“让我们开始”
  
-and I can scroll vertically
-我可以垂直滚动
- 
-that's pretty cool
-这很酷
+and I can scroll vertically, that's pretty cool
+我可以垂直滚动，这很酷
  
 that's exactly what I wanted
 这正是我想要的
  
 but now I want to make this scrollable horizontally
-但现在，我想让它能水平滚动
+但现在，我想让这个滚动区域能水平滚动
  
 and I can do this by selecting double clicking here
 我可以选择并双击这里 
@@ -158,7 +152,7 @@ and I'm going to say it is going to crop here
 我希望它将在这里被裁剪
 
 the edge of the artboard, and also here
-也就是画板的边缘，就是这里
+画板的边缘，也就是这里
  
 this is going to be the size of the scrollable area
 这才是滚动区域的大小
@@ -179,7 +173,7 @@ and all the way to the right
 以及一直滚动到最右边
  
 and that's it you can make any group or any element on your designs scrollable with flinto
-就是这样。你可以在 Flinto 中让任何组或任何元素实现滚动
+  
  
 Oh which is pretty pretty cool
 这相当相当酷
