@@ -1,0 +1,132 @@
+hello and welcome to sketch together
+my name is Paula Stanley
+and this is a crash course on principle for mac
+principle is a great tool 
+for creating user interface animations and prototypes
+on this session 
+we're going to learn how to use continuous interactions
+like dragging scrolling and paging
+which creates a really cool prototypes
+and really cool gestures on your on your ideas
+so let's go ahead and do that 
+there are three common interactions 
+that are built into principle 
+these ones are dragging scrolling and page scrolling
+and these can be found here 
+when you select on the inspector 
+you select a layer or a group 
+you can enable them here horizontally or vertically 
+and let's start with scrolling 
+and scrolling can be enabled here on a group layer
+like this one which is a long layer 
+and this when a finger is dragged on a scrolling layer 
+the child layers will move with the finger
+but the group itself will not change position 
+so Maps message stress or any large content 
+make great candidates for scrolling 
+so let's go ahead and try it out on this example 
+so for example here I'm going to zoom out a little bit
+so you can see I have a long set of cards 
+that are here on the bottom 
+so I want to make this a scrollable vertically 
+and I also have this these thumb images 
+that I want to make scrollable horizontally 
+so as you can see here in the preview 
+I cannot do anything because I haven't done anything scrollable 
+so I'm going to go ahead and select this group of cards 
+and I'm going to go to vertical 
+and I'm going to make it a scrollable 
+and now it can start scrolling here 
+but see how it doesn't go all the way to the bottom
+just like bounces right there and that's because 
+I the size of this it's a this size and the cropping is there 
+and I have to make it the size of the actual artboard of my actual content 
+but actually I'm going to make it the size of this 
+that way it this is the edge of the scrolling 
+and now if I test it out 
+now I can go all the way to the bottom 
+and if I wanted to go see how it's scrubbing right here 
+if I wanted to go all the way to the hello the header 
+I can go ahead and just change this to the size of this 
+and now it goes below the header 
+that's cool 
+and now that's a vertical scrolling 
+and I want to make a horizontal scrolling on the set of images 
+so I'm going to select this group 
+and I'm going to do the same 
+but it's now in the horizontal axis 
+so I'm going to make it a scrollable 
+and if I test it out see how to make this a little bit bigger 
+so we can see it 
+now I can scroll this 
+but just the same as the vertical scrolling 
+it snaps in it doesn't go all the way to the left 
+and to solve this I just need to make this a little bit smaller 
+I'm going to make this actually the size of this 
+and now I can scroll all the way to the left 
+and it bounces and looks pretty cool 
+so yeah that's the basic of scrolling 
+now I'm going to teach you about how to use patient interaction 
+and pigeon is just like scrolling 
+except it automatically snaps it's a straw position 
+to group size increments when the scrolling ends 
+and I'm going to show you an example of how to do this 
+here I have a sketch file 
+where I have a walkthrough up screen as you can see here 
+let me drag this outside the airport so you can see 
+I have three images and I want to be able to scroll through them 
+and snap to the size of the screen when I scroll through them 
+so I'm going to go to command Z 
+and I'm going to go to principle 
+and I'm going to create a new file 
+I'm going to import my files 
+and I have it here if i zoom out 
+I can see this image images that are there 
+and now we want to add a horizontal paging scrolling over here on the inspector 
+so just select that 
+and now if I go over here I can start dragging it 
+but it doesn't snap it doesn't go all the way 
+and that's because having the size of the group is all the way here 
+and I actually wanted to beat this size the size of the artwork 
+and if now if I drag it snaps to the size of the artboard magically 
+which is really cool 
+and obviously the other elements stay fixed 
+since those are not draggable or scrollable 
+so yeah you can use paging for image carousels or for home screens 
+or for cards animations and stuff like this 
+and it creates a really cool effect 
+so yeah 
+now let's learn how to add dragon interactions 
+and you want to enable dragon on layer when you like to allow the layers position to move 
+when a touch is held over it 
+so for example I want to be able to drag this image 
+so I'm going to go ahead and here in horizontal 
+I'm going to go to drag and vertical I'm going to go to drag too 
+and now here in the preview 
+as you can see now I can start dragging this element on the X or Y position vertically and horizontally 
+and this one since I haven't done anything to it I cannot drag it 
+so I can change that but just selecting it 
+and then for example let's do it only horizontally a drag horizontally 
+and now it's bound to just the x position 
+I can only drag it horizontally 
+but if I were to make it drag also vertically I can just drag it anywhere on the campus 
+which is pretty cool 
+and that's pretty cool but sometimes you want to do something that is a little bit more useful 
+like for example a map 
+so over here on my sketch file I have a map already 
+and I'm going to import it here the principal 
+going to close this guy 
+and I'm going to create a new file 
+and I'm going to import it 
+and then here zoom out a little bit 
+and here I have this element and I want to be able to drag the map on the campus 
+and to do that just as the previous example 
+I can do it by selecting the group 
+and I'm going to make it draggable horizontally and also vertically 
+and since I didn't do anything to the header 
+the header header will remain static so I'm going to preview it here 
+let me make this a little bit bigger so we can see it 
+and as you can see I dragged the map around 
+and I can I can preview a map and only add different elements and on the X or Y position 
+and is reacting to my touch 
+which is pretty cool for this kind of purpose
