@@ -27,7 +27,7 @@ we're going to learn how to use continuous interactions
 
 
 like dragging scrolling and paging
-例如拖拽、滚动和分页
+例如拖拽、滚动和翻页
 
 
 which creates a really cool prototypes
@@ -48,7 +48,7 @@ there are three common interactions that are built into principle
 
 
 these ones are dragging scrolling and page scrolling
-它们是 拖拽、滚动和分页滚动
+它们是 拖拽、滚动和翻页滚动
 
 
 and these can be found here when you select on the inspector 
@@ -88,7 +88,7 @@ but the group itself will not change position
 
 
 so maps message stress or any large content 
-所以 地图、消息条、或任何较大的内容
+所以 地图、新闻列表、长文章
 
 
 make great candidates for scrolling 
@@ -158,220 +158,227 @@ just like bounces right there
 and that's because 
 这是因为尺寸的问题
 
-
 I the size of this it's a this size and the cropping is there 
 在这个位置就被裁剪了
 
-
 and I have to make it the size of the actual artboard of my actual content 
-
+我需要把内容的尺寸调整为实际画板的尺寸
 
 but actually I'm going to make it the size of this  
-
+但实际上，我需要将尺寸调整到这里
 
 that way it this is the edge of the scrolling  
-
+即滚动区域的边缘位置
 
 and now if I test it out  
-
+如果现在我来测试一下
 
 now I can go all the way to the bottom  
-
+就可以一直滚动到最底端了
 
 and if I wanted to go see how it's scrubbing right here  
+我要看一下 它们在这里是如何相互接触的
 
-
-if I wanted to go all the way to the hello the header  
-
+if I wanted to go all the way to the below the header  
+如果我想让它一直滚动到顶部的下方
 
 I can go ahead and just change this to the size of this  
-
+我可以一直把它的尺寸改成这样
 
 and now it goes below the header  
-
+现在它就会滚动到顶部的下方
 
 that's cool  
-
+很酷
 
 and now that's a vertical scrolling  
-
+这是垂直滚动
 
 and I want to make a horizontal scrolling on the set of images  
-
+现在我要对这组图片设置水平滚动
 
 so I'm going to select this group  
+我首先选中这个组
 
-
-and I'm going to do the same  
-
+and I'm going to do the same 
+这里做类似的设置
 
 but it's now in the horizontal axis  
-
+只不过现在是水平方向上的
 
 so I'm going to make it a scrollable  
+在这里设置为滚动
 
+and if I test it out see how 
+现在我们测试一下
 
-and if I test it out see how to make this a little bit bigger  
+to make this a little bit bigger so we can see it  
+我要稍微放大一下才能看得清
 
-
-so we can see it  
-
-
-now I can scroll this  
-
+now I can scroll this
+现在可以滚动了
 
 but just the same as the vertical scrolling  
-
+但和水平滚动有同样的问题
 
 it snaps in it doesn't go all the way to the left  
-
+在这里挡住了 无法一直到最左边
 
 and to solve this I just need to make this a little bit smaller  
-
+要解决这个问题 我只需要让它变小一点
 
 I'm going to make this actually the size of this  
-
+我让它变得和这里一样大
 
 and now I can scroll all the way to the left  
-
+现在我可以一直滚动到最左边了
 
 and it bounces and looks pretty cool  
-
+可以反弹 看起来很酷
 
 so yeah that's the basic of scrolling  
+这就是滚动的基本使用方法
 
+now I'm going to teach you about how to use paging interaction  
+现在我要教你如何使用 paging interaction（翻页交互）
 
-now I'm going to teach you about how to use patient interaction  
+and paging is just like scrolling  
+翻页和滚动很像
 
+except it automatically snaps its scrolling position  
+只不过翻页可以每次滚动固定的距离
 
-and pigeon is just like scrolling  
-
-
-except it automatically snaps it's a straw position  
-
-
-to group size increments when the scrolling ends  
-
+to group-sized increments when the scrolling ends  
+这个距离和组合的大小一致
 
 and I'm going to show you an example of how to do this  
-
+现在我来演示一下怎么做到这一点
 
 here I have a sketch file  
+现在我有一个 Sketch 文件
 
+where I have a walk-through up screen as you can see here  
+如你所见 它有一个引导画面
 
-where I have a walkthrough up screen as you can see here  
+let me drag this outside the artboard
+让我把它拖到画板外面 
 
+so you can see I have three images 
+你现在可以看到 我有三张图片
 
-let me drag this outside the airport so you can see  
-
-
-I have three images and I want to be able to scroll through them  
-
+and I want to be able to scroll through them  
+我希望能滚动地查看它们
 
 and snap to the size of the screen when I scroll through them  
-
+并且图片在滚动时能贴合屏幕宽度
 
 so I'm going to go to command Z  
-
+所以我按下 Command + Z  
 
 and I'm going to go to principle  
-
+然后进入到 Principle
 
 and I'm going to create a new file  
-
+创建一个新的文件
 
 I'm going to import my files  
+并导入文件
 
+and I have it here 
+好了
 
-and I have it here if i zoom out  
-
-
-I can see this image images that are there  
-
+if i zoom out I can see these images that are there  
+如果我缩小 我就可以看到这些图片了
 
 and now we want to add a horizontal paging scrolling over here on the inspector  
-
+我现在要在查看器里添加一个水平的翻页
 
 so just select that  
-
+只要选中它
 
 and now if I go over here I can start dragging it  
-
+现在我可以拖动它
 
 but it doesn't snap it doesn't go all the way  
-
+但它不会贴合至屏幕，不会一直走到底
 
 and that's because having the size of the group is all the way here  
-
+这是因为组的大小是一直延伸到这一端的
 
 and I actually wanted to beat this size the size of the artwork  
-
+实际上我希望这个组的大小是单张图片的大小
 
 and if now if I drag it snaps to the size of the artboard magically  
-
+现在 我拖动它 它就很神奇地贴合至画板的宽度
 
 which is really cool  
-
+这很酷
 
 and obviously the other elements stay fixed  
-
+很明显，其他元素保持固定不动
 
 since those are not draggable or scrollable  
-
+因为它们既不是可拖拽的也不是可滚动的
 
 so yeah you can use paging for image carousels or for home screens  
-
+所以 你可以对轮播图片、主页
 
 or for cards animations and stuff like this  
+卡片动画或其他类似的东西采用翻页
 
+and it creates a really cool effect so yeah  
+效果是很酷的
 
-and it creates a really cool effect  
+now let's learn how to add drag interactions  
+现在我们来学习如何添加拖拽交互
 
+and you want to enable drag on a layer 
+你需要在一个图层上启用拖拽
 
-so yeah  
-
-
-now let's learn how to add dragon interactions  
-
-
-and you want to enable dragon on layer when you like to allow the layers position to move  
-
+when you'd like to allow the layer's position to move  
+当你想要图层的位置
 
 when a touch is held over it  
-
+随触摸点的移动而移动
 
 so for example I want to be able to drag this image  
+比如 我想要拖拽这个图片
 
+so I'm going to go ahead 
+所以我到这里
 
-so I'm going to go ahead and here in horizontal  
+and here in horizontal I'm going to go to drag
+在水平位置上启用拖拽
 
+and vertical I'm going to go to drag too  
+在垂直位置上也启用拖拽
 
-I'm going to go to drag and vertical I'm going to go to drag too  
+and now here in the preview as you can see now 
+现在我们在预览里可以看到
 
+I can start dragging this element on the X or Y position vertically and horizontally  
+我可以在 X 轴或者 Y 轴上水平或垂直地拖拽
 
-and now here in the preview  
+and this one since I haven't done anything to it
+因为我没有对这个进行设置
 
-
-as you can see now I can start dragging this element on the X or Y position vertically and horizontally  
-
-
-and this one since I haven't done anything to it I cannot drag it  
-
+I cannot drag it  
+我无法拖动它
 
 so I can change that but just selecting it  
-
+所以可以选中并更改它
 
 and then for example let's do it only horizontally a drag horizontally  
-
+例如 我们只设置水平可拖拽
 
 and now it's bound to just the x position  
-
+现在它只能沿 X 轴移动
 
 I can only drag it horizontally  
-
+我只能水平拖拽它
 
 but if I were to make it drag also vertically I can just drag it anywhere on the campus  
-
+但
 
 which is pretty cool  
 
