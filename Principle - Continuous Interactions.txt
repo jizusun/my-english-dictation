@@ -1,171 +1,131 @@
 hello and welcome to sketch together
 大家好 欢迎来到 Sketch Together
 
-
 my name is Paula Stanley
 我是 Paula Stanley
-
 
 and this is a crash course on principle for mac
 这是一个 Mac 上 Principle 的速成教程 
 
-
 principle is a great tool 
 Principle 是一个优秀的工具
-
 
 for creating user interface animations and prototypes
 能创建用户界面、动画和原型
 
-
 on this session
 在本节课中
-
 
 we're going to learn how to use continuous interactions
 我们会学习如何使用 continous interactions（连续交互）
 
-
 like dragging scrolling and paging
 例如拖拽、滚动和翻页
-
 
 which creates a really cool prototypes
 它能使你的原型更酷炫
 
-
 and really cool gestures on your on your ideas
 手势更酷炫
-
 
 so let's go ahead and do that 
 让我们开始吧
 
-
 there are three common interactions that are built into principle 
 有三种常见的、Principle 内置的交互
 
-
-
 these ones are dragging scrolling and page scrolling
-它们是 拖拽、滚动和翻页滚动
-
+它们是拖拽、滚动和翻页
 
 and these can be found here when you select on the inspector 
 你可以在 Inspector（查看器）中找到它们
 
-
 you select a layer or a group 
 首先要选中一个图层或一个组
-
 
 you can enable them here horizontally or vertically 
 然后分别在 Horizontal （水平）或 Vertical（垂直）方向上启用它们
 
-
 and let's start with scrolling 
 我们先来学习 Scrolling（滚动）
-
 
 and scrolling can be enabled here on a group layer
 可以在一组图层上启用滚动
 
-
 like this one which is a long layer 
 例如这就是一个很长的图层
-
 
 and this when a finger is dragged on a scrolling layer 
 当你在滚动图层上拖拽时
 
-
 the child layers will move with the finger
 子图层也会随之移动
-
 
 but the group itself will not change position 
 但是组本身并不会移动位置
 
-
 so maps message stress or any large content 
 所以 地图、新闻列表、长文章
-
 
 make great candidates for scrolling 
 都适合做成滚动的
 
-
 so let's go ahead and try it out on this example 
 我们首先用这个例子来试一下
-
 
 so for example here 
 例如这里
 
-
 I'm going to zoom out a little bit
 我先稍微放大一下
-
 
 so you can see I have a long set of cards 
 如你所见 这是很长的一组卡片
 
-
 that are here on the bottom 
 一直到最底部
-
 
 so I want to make this a scrollable vertically 
 我希望它们能垂直滚动
 
-
 and I also have this these thumb images 
 这里还有缩略图
-
 
 that I want to make scrollable horizontally 
 我希望它们能水平滚动
 
-
 so as you can see here in the preview 
 在 Preview（预览）框中可以看到
-
 
 I cannot do anything because I haven't done anything scrollable 
 我什么也做不了 因为我还没将任何内容设置为滚动
 
-
 so I'm going to go ahead and select this group of cards 
 我现在首先选中这一组卡片
-
 
 and I'm going to go to vertical and I'm going to make it a scrollable 
 在“ Vertical（垂直）”这儿 我选择 Scroll（滚动）
 
-
 and now it can start scrolling here 
 现在它可以滚动了
-
 
 but see how it doesn't go all the way to the bottom
 但它并不能一直滚动到最底部
 
-
 just like bounces right there 
 像这样 在这里就会反弹
 
-
-and that's because 
+and that's because I the size of this
 这是因为尺寸的问题
 
-I the size of this it's a this size and the cropping is there 
+it's a this size and the cropping is there 
 在这个位置就被裁剪了
 
 and I have to make it the size of the actual artboard of my actual content 
 我需要把内容的尺寸调整为实际画板的尺寸
 
 but actually I'm going to make it the size of this  
-但实际上，我需要将尺寸调整到这里
+但实际上 我需要将尺寸调整到这里
 
 that way it this is the edge of the scrolling  
 即滚动区域的边缘位置
@@ -300,7 +260,7 @@ and now if I go over here I can start dragging it
 现在我可以拖动它
 
 but it doesn't snap it doesn't go all the way  
-但它不会贴合至屏幕，不会一直走到底
+但它不会贴合至屏幕 不会一直走到底
 
 and that's because having the size of the group is all the way here  
 这是因为组的大小是一直延伸到这一端的
@@ -315,7 +275,7 @@ which is really cool
 这很酷
 
 and obviously the other elements stay fixed  
-很明显，其他元素保持固定不动
+很明显 其他元素保持固定不动
 
 since those are not draggable or scrollable  
 因为它们既不是可拖拽的也不是可滚动的
@@ -393,7 +353,7 @@ like for example a map
 比如对于地图
 
 so over here on my sketch file I have a map already  
-在这个 Sketch 文件中，已经有一幅地图
+在这个 Sketch 文件中 已经有一幅地图
 
 and I'm going to import it here the principal  
 我现在要将它导入到 Principle
