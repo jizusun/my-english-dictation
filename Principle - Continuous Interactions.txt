@@ -377,64 +377,71 @@ and now it's bound to just the x position
 I can only drag it horizontally  
 我只能水平拖拽它
 
-but if I were to make it drag also vertically I can just drag it anywhere on the campus  
-但
+but if I were to make it drag also vertically 
+但如果设置它在垂直方向上也可以被拖拽
+
+I can just drag it anywhere on the canvas
+我就可以将它拖拽到任何位置
 
 which is pretty cool  
-
+相当酷
 
 and that's pretty cool but sometimes you want to do something that is a little bit more useful  
-
+但有时我们希望做得更有用些
 
 like for example a map  
-
+比如对于地图
 
 so over here on my sketch file I have a map already  
-
+在这个 Sketch 文件中，已经有一幅地图
 
 and I'm going to import it here the principal  
-
+我现在要将它导入到 Principle
 
 going to close this guy  
-
+先关掉现在这个文档
 
 and I'm going to create a new file  
-
+创建一个新文件
 
 and I'm going to import it  
-
+然后导入它
 
 and then here zoom out a little bit  
-
+现在我稍微缩小一些
 
 and here I have this element and I want to be able to drag the map on the campus  
-
+对于这个元素 我希望能够在画布上拖拽这个地图
 
 and to do that just as the previous example  
-
+为了做到这一点 我们可以像前一个例子那样
 
 I can do it by selecting the group  
-
+首先选中这个组
 
 and I'm going to make it draggable horizontally and also vertically  
-
+设置它既可以水平拖拽也可以垂直拖拽
 
 and since I didn't do anything to the header  
+因为我没有对顶栏进行什么设置
 
+the header header will remain static 
+顶栏会保持静止不动
 
-the header header will remain static so I'm going to preview it here  
-
+so I'm going to preview it here  
+现在我来预览一下
 
 let me make this a little bit bigger so we can see it  
-
+让我们放大一些 以便看得更清楚一些
 
 and as you can see I dragged the map around  
-
+如你所见 我四处拖拽地图
 
 and I can I can preview a map and only add different elements and on the X or Y position  
-
+我能预览地图的不同部分
 
 and is reacting to my touch  
-
+并且跟随我所触摸的位置
 
 which is pretty cool for this kind of purpose
+对于这种场景很酷
